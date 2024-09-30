@@ -20,9 +20,9 @@ fun main() = runBlocking {
 
 suspend fun apiCall1() : String{
     delay(5000)
-    return "5 Seconds"
+    return "Time 5 Seconds"
 }
 suspend fun apiCall2() : String{
     delay(10000)
-    return "10 Seconds"
+    return "Time 10 Seconds"
 }
