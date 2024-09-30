@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:stretchColumns="*">
+
+            <!-- Row 1 -->
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tvHarvestType"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="630712"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvFarmName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Beechinor Farms \n JV"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvAcres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Acres 17.89"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <!-- Row 2 -->
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tvPattern"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Pattern \n 4:2"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/estimated_loads_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Est. Loads \n 8.03"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/harvested_loads"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Actual Loads \n 9"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <!-- Row 3 -->
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tvLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Location \n Walla Walla"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Stewarded"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Split Field"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <!-- Row 4 -->
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/harvesters_used"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Harv. Used \n 3"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvHarvestStarted"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Harv. Started \n 8:43am 6.9.23"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvHarvestCompleted"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Harv. Completed \n 10:11am 6.10.23"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <!-- Row 5 -->
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tvGoogleLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="3"
+                    android:background="@drawable/black_border"
+                    android:padding="4dp"
+                    android:text="Notes \n Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+                    android:textAlignment="center" />
+            </TableRow>
+
+        </TableLayout>
+    </HorizontalScrollView>
+</ScrollView>
